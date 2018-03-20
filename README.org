@@ -2,8 +2,6 @@
 #+author: Rodrigo Dorantes-Gilardi
 #+date: 2018-20-03
 
-* Get the RMSD value between two molecules using python
-
   Very simple to use:
 
   #+BEGIN_SRC sh
