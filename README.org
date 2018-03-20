@@ -1,0 +1,21 @@
+#+title: A simple RMSD calculator for two pdb files
+#+author: Rodrigo Dorantes-Gilardi
+#+date: 2018-20-03
+
+* Get the RMSD value between two molecules using python
+
+  Very simple to use:
+
+  #+BEGIN_SRC sh
+  $ python rmsd.py file1.pdb file2.pdb
+  #+END_SRC
+  
+* Install
+  Simply clone the repository:
+  
+  #+BEGIN_SRC sh
+  git clone github.com/rodogi/rmsd
+  #+END_SRC
+
+* Requirements
+  + [[http://biopython.org/][biopython]]
