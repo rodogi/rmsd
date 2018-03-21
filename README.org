@@ -12,7 +12,7 @@
   Simply clone the repository:
   
   #+BEGIN_SRC sh
-  git clone github.com/rodogi/rmsd
+  $ git clone github.com/rodogi/rmsd
   #+END_SRC
 
 * Requirements

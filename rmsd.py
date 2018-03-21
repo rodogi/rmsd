@@ -48,7 +48,7 @@ def rmsd(prot1, prot2):
     def remove_water(prot):
         for residue in prot.get_residues():
             if residue.id[0] != ' ':
-                residue.parent.detach_child(residue)
+                residue.parent.detach_child(residue.id)
         pass
 
     remove_water(prot1)
